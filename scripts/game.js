@@ -89,6 +89,7 @@ class Game {
         this.player.health--;
         return;
       } else if (el.positionY >= 650 && this.player.health === 1) {
+        this.player.health = 0;
         this.gameRunning = false;
         const body = document.querySelector('body');
         const section = document.createElement('section');

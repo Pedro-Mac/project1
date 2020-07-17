@@ -61,7 +61,7 @@ class Labyrinth {
     const context = this.game.context;
     context.save();
     context.fillStyle = 'red';
-    context.fillRect(0, 45, 750, 5);
+    context.fillRect(0, 49.5, 750, 0.5);
     context.restore();
 
     this.paintWalls();
